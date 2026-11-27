@@ -1,0 +1,25 @@
+baseURL = 'https://n-pham.github.io/refnotes/'
+languageCode = 'en-us'
+title = 'Reference Notes'
+theme = 'diary'
+
+[params]
+subtitle = "Reference Notes"
+
+[markup]
+  [markup.highlight]
+    style = "onedark"
+    lineNos = false
+
+[markup.goldmark.renderer]
+      unsafe = true
+
+[[menu.main]]
+url = "/tags/"
+name = "Tags"
+weight = 2
+
+[[menu.main]]
+url = "/posts/"
+name = "Timeline"
+weight = 1
